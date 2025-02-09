@@ -1,8 +1,8 @@
 ## Install
 
-1. Set Firefox theme to `Dark` in: Firefox settings > Extensions & Themes > Themes.
-2. Go to `about:config` (in the URL bar) and set `toolkit.legacyUserProfileCustomizations.stylesheets = true`.
-3. Go to `about:support` > Search for "Profile Directory" > Open > Copy the "chrome" folder to this location.
+1. Navigate to Firefox settings and go to Extensions & Themes > Themes. Select the `Dark` theme.
+2. Go to `about:config` and set `toolkit.legacyUserProfileCustomizations.stylesheets = true`.
+3. Navigate to `about:support` > Application Basics > Profile Folder > Open Folder and Copy the "chrome" folder to this location.
 4. Restart Firefox.
 
 ## Notes
