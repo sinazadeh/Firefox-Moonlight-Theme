@@ -1,3 +1,5 @@
+![Preview](preview.jpg "Preview")
+
 ## Install
 
 1. Navigate to Firefox settings and go to Extensions & Themes > Themes. Select the `Dark` theme.
