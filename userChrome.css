@@ -1,0 +1,51 @@
+/* Moonlight Theme */
+
+:root {
+  /* "toolbar": "rgb(12, 76, 125)", */
+  --toolbar-bgcolor: rgb(12, 76, 125) !important;
+  /* "toolbar_text": "rgb(255, 255, 255)", */
+  --toolbar-color: rgb(255, 255, 255) !important;
+  /* "frame": "rgb(7, 43, 71)", */
+  --lwt-accent-color: rgb(7, 43, 71) !important;
+  --lwt-accent-color-inactive: rgb(7, 43, 71) !important;
+  /* "tab_background_text": "rgb(255, 255, 255)", */
+  --lwt-text-color: rgb(255, 255, 255) !important;
+  /* "toolbar_field": "rgb(3, 18, 30)", (search bar) */
+  --toolbar-field-background-color: rgb(3, 18, 30) !important;
+  --toolbar-field-focus-background-color: rgb(3, 18, 30) !important;
+  /* "toolbar_field_text": "rgb(255, 255, 255)", (search text)*/
+  --toolbar-field-color: rgb(255, 255, 255) !important;
+  --toolbar-field-focus-color: rgb(255, 255, 255) !important;
+  /* "tab_line": "rgb(3, 18, 30)", */
+  --lwt-tab-line-color: rgb(3, 18, 30) !important;
+  /* "popup": "rgba(29, 29, 30, 0.99)", */
+  --arrowpanel-background: rgba(29, 29, 30, 0.99) !important;
+  /* "popup_text": "rgb(255, 255, 255)", */
+  --arrowpanel-color: rgb(255, 255, 255) !important;
+  /* "tab_loading": "rgb(3, 18, 30)" */
+  --tab-loading-fill: rgb(3, 18, 30) !important;
+  /* Others*/
+  --tab-selected-textcolor: rgb(255, 255, 255) !important;
+  --tab-selected-bgcolor: rgb(12, 76, 125) !important;
+  --toolbar-field-border-color: rgba(0, 0, 0) !important;
+  --lwt-additional-images: url("images/bg-000-5672c42860d5b06e1058dc477397f3ef.svg");
+  --panel-separator-zap-gradient: linear-gradient(90deg, #9059FF 0%, #FF4AA2 52.08%, #FFBD4F 100%)  !important;
+}
+
+
+/* Round elements */
+:root {
+  --urlbar-icon-border-radius: 20px !important;
+}
+#urlbar-background,
+#urlbar {
+  border-radius: 20px !important;
+}
+.menupopup-arrowscrollbox {
+  border-radius: 16px !important;
+}
+
+/* Remove top space in the browser */
+.titlebar-spacer {
+  display: none !important;
+}
