@@ -1,4 +1,4 @@
-![Preview](preview.jpg "Preview")
+![Preview](assets/preview.jpg "Preview")
 
 ## Install
 
