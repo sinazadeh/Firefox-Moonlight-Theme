@@ -1,3 +1,5 @@
+# Firefox Moonlight Theme
+
 ![Preview](assets/preview.jpg "Preview")
 
 ## Install
@@ -8,4 +10,5 @@
 4. Restart Firefox.
 
 ## Notes
+
 Tested on Firefox 135.0 (64-bit) Windows 11.
