@@ -28,18 +28,24 @@
   --tab-selected-textcolor: rgb(255, 255, 255) !important;
   --tab-selected-bgcolor: rgb(12, 76, 125) !important;
   --toolbar-field-border-color: rgba(0, 0, 0) !important;
-  --panel-separator-zap-gradient: linear-gradient(90deg, #9059FF 0%, #FF4AA2 52.08%, #FFBD4F 100%)  !important;
+  --panel-separator-zap-gradient: linear-gradient(
+    90deg,
+    #9059ff 0%,
+    #ff4aa2 52.08%,
+    #ffbd4f 100%
+  ) !important;
 }
-
 
 /* Round elements */
 :root {
   --urlbar-icon-border-radius: 20px !important;
 }
+
 #urlbar-background,
 #urlbar {
   border-radius: 20px !important;
 }
+
 .menupopup-arrowscrollbox {
   border-radius: 16px !important;
 }
