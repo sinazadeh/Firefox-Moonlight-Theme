@@ -54,3 +54,8 @@
 .titlebar-spacer {
   display: none !important;
 }
+
+/* Hide bookmark folder icons */
+.bookmark-item[container="true"] .toolbarbutton-icon {
+  display: none !important;
+}
