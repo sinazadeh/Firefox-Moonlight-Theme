@@ -59,3 +59,32 @@
 .bookmark-item[container="true"] .toolbarbutton-icon {
   display: none !important;
 }
+
+/* Clean context menu */
+/* Remove Email Image/Video */
+#context-sendimage,
+#context-sendvideo {
+  display: none !important;
+}
+
+/* Remove Inspect Accessibility Properties */
+#context-inspect-a11y {
+  display: none !important;
+}
+
+/* Remove Print Selection */
+#context-print-selection {
+  display: none !important;
+}
+
+/* Remove Set Image as Desktop Background */
+#context-setDesktopBackground,
+#context-sep-setbackground {
+  display: none !important;
+}
+
+/* Remove Save Link to Pocket */
+#context-savelinktopocket,
+#context-pocket {
+  display: none !important;
+}
