@@ -8,6 +8,8 @@
   /* "frame": "rgb(7, 43, 71)", */
   --lwt-accent-color: rgb(7, 43, 71) !important;
   --lwt-accent-color-inactive: rgb(7, 43, 71) !important;
+  --toolbox-bgcolor: rgb(7, 43, 71) !important;
+  --toolbox-bgcolor-inactive: rgb(7, 43, 71) !important;
   /* "tab_background_text": "rgb(255, 255, 255)", */
   --lwt-text-color: rgb(255, 255, 255) !important;
   /* "toolbar_field": "rgb(3, 18, 30)", (search bar) */
@@ -24,7 +26,20 @@
   --arrowpanel-color: rgb(255, 255, 255) !important;
   /* "tab_loading": "rgb(3, 18, 30)" */
   --tab-loading-fill: rgb(3, 18, 30) !important;
-  /* Others */
+  /* "button_background_active": "rgb(255, 86, 3)", */
+  --toolbarbutton-active-background: rgb(255, 86, 3) !important;
+  /* "icons": "rgb(255, 255, 255)", */
+  --toolbarbutton-icon-fill: rgb(255, 255, 255) !important;
+  /* "ntp_text": "rgb(255, 255, 255)", */
+  --newtab-text-primary-color: rgb(255, 255, 255) !important;
+  /* "popup_highlight_text": "rgb(255, 255, 255)", */
+  --urlbarView-highlight-color: rgb(255, 255, 255) !important;
+  /* "sidebar_highlight_text": "rgb(255, 255, 255)", */
+  --urlbarView-highlight-color: rgb(255, 255, 255) !important;
+  /* "sidebar_text": "rgb(255, 255, 255)", */
+  --sidebar-text-color: rgb(255, 255, 255) !important;
+
+  /* Others*/
   --tab-selected-textcolor: rgb(255, 255, 255) !important;
   --tab-selected-bgcolor: rgb(12, 76, 125) !important;
   --toolbar-field-border-color: rgba(0, 0, 0) !important;
@@ -36,16 +51,21 @@
   ) !important;
 }
 
+/* Sidebar buttons hover */
+.button-background {
+  button:hover > & {
+    background-color: rgba(255, 86, 3, 0.8) !important;
+  }
+}
+
 /* Round elements */
 :root {
   --urlbar-icon-border-radius: 20px !important;
 }
-
 #urlbar-background,
 #urlbar {
   border-radius: 20px !important;
 }
-
 .menupopup-arrowscrollbox {
   border-radius: 16px !important;
 }
@@ -55,7 +75,7 @@
   display: none !important;
 }
 
-/* Hide bookmark folder icons */
+/* Hide folder icon*/
 .bookmark-item[container="true"] .toolbarbutton-icon {
   display: none !important;
 }
