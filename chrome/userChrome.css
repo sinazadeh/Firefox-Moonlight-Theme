@@ -44,6 +44,9 @@
   --tab-selected-textcolor: rgb(255, 255, 255) !important;
   --tab-selected-bgcolor: rgb(12, 76, 125) !important;
   --toolbar-field-border-color: rgba(0, 0, 0) !important;
+  --button-background-color-hover: rgba(255, 86, 3, 0.8) !important;
+  --button-background-color-active: rgba(255, 86, 3, 0.8) !important;
+  --urlbarView-hover-background: rgba(255, 86, 3, 0.8) !important;
   --panel-separator-zap-gradient: linear-gradient(
     90deg,
     #9059ff 0%,
@@ -57,6 +60,13 @@
   button:hover > & {
     background-color: rgba(255, 86, 3, 0.8) !important;
   }
+}
+
+/* Buttons colors */
+#urlbar {
+  --urlbar-box-bgcolor: rgba(255, 86, 3, 1) !important;
+  --urlbar-box-focus-bgcolor: rgba(255, 86, 3, 1) !important;
+  --urlbar-box-hover-bgcolor: rgba(255, 86, 3, 0.8) !important;
 }
 
 /* Round elements */
@@ -81,7 +91,7 @@
   display: none !important;
 }
 
-/* Line beneath bookmark folder */
+/* Line beneath bookmark folder icon */
 .bookmark-item[container="true"] {
   border-bottom: 2px solid rgb(255, 86, 3) !important;
   border-bottom-right-radius: 0% !important;
